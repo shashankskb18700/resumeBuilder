@@ -1,0 +1,235 @@
+.topBanner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 80vh;
+  background: url(../../Assets/img-svg/wave-used2.svg);
+}
+
+@font-face {
+  font-family: "Decovar Draw";
+  src: url(../../Assets/fonts/MonoLisa-Regular.ttf);
+}
+@font-face {
+  font-family: "banneText";
+  src: url(../../Assets/fonts/MonoLisa-Light.ttf);
+}
+
+/* , */
+.pngImage {
+  background: url(../../Assets/img-svg/bestBoy.png) no-repeat;
+  background-size: contain;
+  width: 45vw;
+  height: 80vh;
+  padding-bottom: 30px;
+}
+.combined {
+  display: flex;
+}
+.typingAnimation {
+  display: flex;
+  width: 55vw;
+  margin-left: 55px;
+  font-family: "Decovar Draw";
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  /* justify-content: flex-end; */
+}
+.typingAnimation .staticText {
+  font-size: 35px;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 20px;
+}
+.typingAnimation .dynamicText li {
+  list-style: none;
+  font-size: 35px;
+  font-weight: 400;
+  /* margin-left: 30px; */
+  text-align: center;
+  color: rgb(253, 56, 46);
+}
+.typingAnimation .dynamicText {
+  overflow: hidden;
+  height: 90px;
+  /* background: red; */
+  line-height: 90px;
+  /* margin-bottom: 50px; */
+}
+
+.dynamicText li {
+  position: relative;
+  /* margin-bottom: 2px; */
+  font-size: 35px;
+  font-weight: 400;
+  position: relative;
+  top: 0px;
+  animation: slide 24s steps(4) infinite;
+}
+
+@keyframes slide {
+  100% {
+    top: -360px;
+  }
+}
+
+.dynamicText li span:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+
+  width: 100%;
+  background: white;
+  /* padding-bottom: 30px; */
+  border-left: 2px solid red;
+  color: red;
+  text-align: center;
+  animation: typing 6s steps(10) infinite;
+}
+
+/* @keyframes typing {
+  100% {
+    left: 100%;
+    margin: 0 -35px 0 35px;
+  }
+} */
+@keyframes typing {
+  40%,
+  60% {
+    left: calc(100% + 30px);
+  }
+  100% {
+    left: 0;
+  }
+}
+
+.newsLet input {
+  width: 30vw;
+  height: 6vh;
+  border: 2px solid rgb(8, 36, 59);
+  /* border-radius-: 4px; */
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+  margin-top: 7px;
+  padding-left: 10px;
+}
+.newsLet {
+  width: 50vw;
+  margin-top: 50px;
+  font-size: 14px;
+}
+.newsLet button {
+  width: 12.7vw;
+  height: 6vh;
+  background: rgb(8, 36, 59);
+  color: wheat;
+  border: none;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.newsLet input::placeholder {
+  font-family: "Decovar Draw";
+  outline: none;
+}
+input:focus {
+  outline: none;
+}
+
+.afterBanner {
+  width: 100vw;
+  height: 40vh;
+  background: rgb(162, 200, 238);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 10vh;
+  font-size: 30px;
+  font-weight: 800;
+  font-family: "banneText";
+}
+.afterBanner .Brand {
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10vh;
+}
+.afterBanner .Brand .ico {
+  width: 70px;
+}
+@font-face {
+  font-family: "para";
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/DecovarDRAW-VF.ttf");
+}
+.templateDes {
+  width: 100vw;
+  height: 80vh;
+  background: url(../../Assets/img-svg/wave-used1.svg);
+  padding-top: 20vh;
+  font-size: 34px;
+  font-weight: 1000;
+  color: rgb(8, 36, 59);
+
+  font-family: "banneText";
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.templateDes p {
+  font-family: "para";
+  font-size: 25px;
+  width: 40vw;
+  margin-top: 30px;
+}
+
+.bord {
+  height: 5px;
+  /* width: 4vw; */
+  background: rgb(163, 200, 233);
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+
+.howToDo {
+  width: 100vw;
+  height: 140vh;
+  margin-top: 100vh;
+  background: url(../../Assets/img-svg/wave-used3.svg);
+  background-color: rgb(163, 200, 233);
+}
+.howToText {
+  padding-top: 55vh;
+  font-family: "Decovar Draw";
+  font-size: 30px;
+  text-align: center;
+  /* color: rgb(8, 36, 59); */
+  color: white;
+  font-weight: 400;
+}
+.howToText p {
+  font-size: 20px;
+}
+.howToBorder {
+  height: 0.6vh;
+  margin-left: 43vw;
+  margin-right: 43vw;
+  background: rgb(216, 226, 246);
+}
+
+/* @media only screen and (min-height: 1200px) {
+  .topBanner {
+    height: 70vh; */
+/* padding-bottom: 20vh; */
+/* } */
+/* } */
+@media only screen and (max-height: 700px) {
+  .topBanner {
+    height: 90vh;
+    /* padding-bottom: 20vh; */
+  }
+}

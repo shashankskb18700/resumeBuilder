@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Decovar Draw";
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/DecovarDRAW-VF.ttf");
+}
+
+.heade {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px 0 20px;
+  flex-direction: row;
+  align-items: center;
+  height: 10vh;
+  /* background: radial-gradient(ellipse at center, #1d2b38 64%, #1f2e3a 100%); */
+  background: rgb(8, 36, 59);
+  color: rgb(241, 217, 171);
+}
+.heade h2 {
+  font-family: "Decovar Draw";
+  letter-spacing: 7px;
+  font-weight: 600;
+  font-size: 5vh;
+  background: linear-gradient(
+    to bottom,
+    #a67d83 0%,
+    #5e69cf 20%,
+    #99f5f7 43%,
+    #fdfbf3 60%,
+    #f7f15a 82%,
+    #eeb437 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.utility {
+  width: 50vh;
+  display: flex;
+  justify-content: space-around;
+  color: wheat;
+}

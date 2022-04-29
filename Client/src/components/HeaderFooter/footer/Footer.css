@@ -1,0 +1,97 @@
+.footer {
+  background-color: black;
+  color: white;
+}
+
+.socialIcon {
+  height: 5vh;
+  width: 40vw;
+  display: flex;
+  justify-content: space-around;
+}
+.social {
+  width: 100vw;
+  /* height: 20vh; */
+}
+.social span {
+  padding-left: 2.5%;
+  font-size: 30px;
+}
+
+.midC {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "para";
+  height: 15vh;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 0 7vw 0 3vw;
+  /* border-top: 2px red solid; */
+  /* border-bottom: 2px red solid; */
+}
+
+@font-face {
+  font-family: "para";
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/DecovarDRAW-VF.ttf");
+}
+
+.footText {
+  font-family: "para";
+  text-align: center;
+  font-stretch: wider;
+  font-weight: 400;
+  font-size: 30px;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footText div {
+  background: rgb(162, 200, 238);
+  border-radius: 20px;
+  width: 6vw;
+  padding-top: 3px;
+  margin-left: 15px;
+  clip-path: circle(10px 10px);
+}
+.footText div:hover {
+  background-color: white;
+}
+
+.socialIcon svg {
+  padding-right: 20px;
+}
+
+.nameTitle h2 {
+  font-family: "Decovar Draw";
+  letter-spacing: 7px;
+  font-weight: 600;
+  font-size: 5vh;
+  background: linear-gradient(
+    to bottom,
+    #a67d83 0%,
+    #5e69cf 20%,
+    #99f5f7 43%,
+    #fdfbf3 60%,
+    #f7f15a 82%,
+    #eeb437 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.endC {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+.dividerFooter {
+  background: white;
+  align-items: center;
+  width: 80vw;
+  height: 0.3vh;
+  margin-left: 7vw;
+}

@@ -1,0 +1,28 @@
+.tempRes {
+  margin-top: 5vh;
+  padding-top: 7vh;
+  width: 75vw;
+  height: 155vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+
+  border-radius: 30px;
+  background-color: rgb(8, 36, 59);
+  color: white;
+}
+.tempRes img {
+  height: 400px;
+  width: 300px;
+}
+.tempRes img:hover {
+  box-shadow: 0 0 5px rgb(247, 218, 166), 0 0 25px rgb(245, 210, 151),
+    0 0 50px rgb(243, 205, 133), 0 0 100px rgb(245, 200, 110);
+}
+/* .tempRes div {
+  display: inline;
+} */
+.temImg {
+  margin-bottom: 5vh;
+  text-align: center;
+}

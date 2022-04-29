@@ -10,11 +10,11 @@
   width: 100vw;
   height: 100vh;
 }
-.tie {
-  width: 59vw;
+.graphiti {
+  width: 57vw;
   height: 100vh;
   /* background: url(../../Assets/wordcloud2.jpg); */
-  background: url(../../Assets/wordcloud3.jpg);
+  background: url(../../Assets/img-svg/wordcloud3.jpg);
   background-position: center;
   background-size: contain;
   display: flex;
@@ -60,14 +60,89 @@
   align-items: center;
 }
 @media only screen and (max-width: 1070px) {
-  .tie {
-    width: 60vw;
+  .graphiti {
+    width: 57vw;
     height: 100vh;
-    background: url(../../Assets/wordcloud3.jpg) no-repeat;
+    background: url(../../Assets/img-svg/wordcloud3.jpg) no-repeat;
     background-position: center;
     background-size: cover;
   }
   /* .auth {
     background: red;
   } */
+}
+
+@font-face {
+  font-family: "Decovar Draw";
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/DecovarDRAW-VF.ttf");
+}
+
+@font-face {
+  font-family: "slog";
+  src: url(../../Assets/fonts/MonoLisa-Medium.ttf);
+}
+.slogan {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  width: 43vw;
+}
+.slog {
+  font-family: "Decovar Draw";
+  margin-bottom: 30px;
+}
+.slogan-text {
+  margin-left: 30px;
+  animation-name: fadee;
+  animation-duration: 0.8s;
+}
+
+.Reed {
+  margin-bottom: 70px;
+  font-size: 7.2vw;
+  position: relative;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  font-family: "Decovar Draw";
+  font-variation-settings: "RSEC" 60;
+  background: linear-gradient(
+    to bottom,
+    #a67d83 0%,
+    #4553d4 20%,
+    #99f5f7 43%,
+    #fdfbf3 60%,
+    #f7f15a 82%,
+    #eeb437 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* .Reed-titil {
+  background: radial-gradient(ellipse at center, #1d2b38 64%, #1f2e3a 100%);
+} */
+
+.slogan-text button {
+  background: rgb(8, 36, 59);
+  width: 25vw;
+  height: 6.3vh;
+  border: none;
+  border-radius: 20px;
+  margin-bottom: 5px;
+  color: wheat;
+  font-family: "Decovar Draw";
+  font-size: large;
+}
+.slogan-text button:hover {
+  color: rgb(8, 36, 59);
+  background: wheat;
+}
+
+@keyframes fadee {
+  from {
+    transform: translateX(-7.5%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
 }

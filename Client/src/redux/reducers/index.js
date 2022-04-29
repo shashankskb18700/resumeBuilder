@@ -1,5 +1,6 @@
 import { combineReducers } from "redux";
+import HtmlReducer from "./htmlReducer";
 
 export default combineReducers({
-  p: () => 10,
+  code: HtmlReducer,
 });

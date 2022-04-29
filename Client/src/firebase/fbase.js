@@ -3,6 +3,7 @@
 import * as firebase from "firebase/app";
 
 import * as auth from "firebase/auth";
+import * as db from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
@@ -17,3 +18,4 @@ const firebaseConfig = {
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 export const authService = auth;
+export const dbService = db;

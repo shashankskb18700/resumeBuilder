@@ -1,0 +1,7 @@
+.adminForm {
+  display: flex;
+  justify-content: center;
+}
+.adminForm div {
+  width: 30vw;
+}

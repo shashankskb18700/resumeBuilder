@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+
+.creationArea {
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+  font-family: "PT Serif";
+  align-content: space-around;
+}
+.downloadBut {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 100vw;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+.downloadBut button {
+  border: none;
+  font-family: "PT Serif";
+  width: 150px;
+  height: 50px;
+  background: rgb(162, 200, 238);
+  border-radius: 5px;
+}
+.downloadBut button:hover {
+  background: wheat;
+  color: white;
+}
+
+.filler {
+  font-family: sans-serif;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 300px;
+  align-items: center;
+}
+.filler input {
+  border: none;
+  background-color: rgb(163, 200, 237);
+  border-bottom: 2px solid rgb(8, 36, 59);
+  border-radius: 5px;
+  width: 200px;
+  padding-left: 4px;
+}
+
+.pre {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+}
+.pre .yy {
+  background-color: red;
+}

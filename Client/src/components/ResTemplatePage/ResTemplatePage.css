@@ -1,0 +1,9 @@
+.tempArsenal {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tempArsenal img {
+  width: 30vw;
+  height: 80vh;
+}

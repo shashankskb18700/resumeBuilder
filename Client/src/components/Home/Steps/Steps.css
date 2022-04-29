@@ -1,0 +1,79 @@
+.step {
+  display: flex;
+  /* grid-template-columns: 1fr 1fr 2fr; */
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  text-align: center;
+  font-size: 20px;
+  font-family: step;
+  color: white;
+  /* height: 70vh; */
+  background-color: rgb(163, 200, 233);
+  padding-bottom: 5vh;
+}
+
+@font-face {
+  font-family: "step";
+  src: url(../../../Assets/fonts/MonoLisa-Regular.ttf);
+}
+
+.step div img {
+  height: 50vh;
+
+  width: 30vw;
+}
+/* .step div img:hover {
+  background-color: rebeccapurple;
+} */
+.step div img :hover {
+  background-color: red;
+  height: 55vh;
+  width: 35vw;
+}
+.step div {
+  width: 30vw;
+}
+.step div:nth-child(2) {
+  width: 20vw;
+  margin-bottom: 30px;
+}
+.step div:nth-child(2) img {
+  width: 19vw;
+  height: 57vh;
+
+  /* padding-bottom: 1vh; */
+}
+.step div:nth-child(1) img {
+  width: 21vw;
+  height: 40vh;
+  padding-top: 30px;
+}
+.step div:nth-child(3) img {
+  width: 30vw;
+  height: 50vh;
+  /* padding-left: 5vw; */
+}
+
+.pickText {
+  padding-left: 45px;
+  padding-top: 60px;
+  margin-left: 25px;
+}
+
+.fillText {
+  padding-left: 28px;
+}
+
+.downloadText {
+  /* width: 100vw; */
+  padding-left: 100px;
+  margin-left: 30px;
+  /* padding-top: 10px; */
+}
+
+@media only screen and (max-height: 1200px) {
+  .step div img {
+    height: 90vh;
+  }
+}
