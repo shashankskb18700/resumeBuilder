@@ -84,16 +84,16 @@ const ResCreator = (props) => {
 
     //
 
-    const da = await axios.post(`${process.env.REACT_APP_API_BASE_URL}/post`, {
-      name: JSON.stringify(ls),
-    });
+    // const da = await axios.post(`${process.env.REACT_APP_API_BASE_URL}/post`, {
+    //   name: JSON.stringify(ls),
+    // });
 
-    // get request to download file
-    const res = await fetch(`${process.env.REACT_APP_API_BASE_URL}/`);
-    const blob = await res.blob();
+    // // get request to download file
+    // const res = await fetch(`${process.env.REACT_APP_API_BASE_URL}/`);
+    // const blob = await res.blob();
 
-    download(blob, "Resume.pdf");
-    setLoading(false);
+    // download(blob, "Resume.pdf");
+    // setLoading(false);
 
     //
 
@@ -105,18 +105,18 @@ const ResCreator = (props) => {
 
     //
 
-    // //post request to write file
-    // const da = await axios.post("/post", {
-    //   name: JSON.stringify(ls),
-    // });
+    //post request to write file
+    const da = await axios.post("/post", {
+      name: JSON.stringify(ls),
+    });
 
-    // //get request to download file
-    // const res = await fetch("http://localhost:8000/");
+    //get request to download file
+    const res = await fetch("http://localhost:8000/");
 
-    // const blob = await res.blob();
+    const blob = await res.blob();
 
-    // download(blob, "Resume.pdf");
-    // setLoading(false);
+    download(blob, "Resume.pdf");
+    setLoading(false);
 
     //
 
