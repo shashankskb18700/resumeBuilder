@@ -5,6 +5,8 @@
   width: 100vw;
   height: 80vh;
   background: url(../../Assets/img-svg/wave-used2.svg);
+  /* background: url(../../Assets//img-svg/wave-haikei6.svg); */
+  background-size: cover;
 }
 
 @font-face {
@@ -22,7 +24,7 @@
   background-size: contain;
   width: 45vw;
   height: 80vh;
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
 }
 .combined {
   display: flex;
@@ -168,7 +170,10 @@ input:focus {
 .templateDes {
   width: 100vw;
   height: 80vh;
-  background: url(../../Assets/img-svg/wave-used1.svg);
+  /* background: url(../../Assets/img-svg/wave-used1.svg); */
+  background: url(../../Assets//img-svg/wave-haikei4.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
   padding-top: 20vh;
   font-size: 34px;
   font-weight: 1000;
@@ -200,6 +205,9 @@ input:focus {
   height: 140vh;
   margin-top: 100vh;
   background: url(../../Assets/img-svg/wave-used3.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* bac */
   background-color: rgb(163, 200, 233);
 }
 .howToText {
@@ -231,5 +239,10 @@ input:focus {
   .topBanner {
     height: 90vh;
     /* padding-bottom: 20vh; */
+  }
+}
+@media only screen and(max-height: 900px) {
+  .topBanner {
+    background: url(../../Assets/img-svg/wave-haikei6.svg);
   }
 }

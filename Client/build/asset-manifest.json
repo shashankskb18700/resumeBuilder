@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.574555fc.css",
-    "main.js": "/static/js/main.55f32360.js",
+    "main.css": "/static/css/main.dbe16d99.css",
+    "main.js": "/static/js/main.a6a3adc1.js",
     "static/media/wordcloud3.jpg": "/static/media/wordcloud3.5f58a6867ccde16b6a18.jpg",
     "static/media/downloadIT.png": "/static/media/downloadIT.ca755cf2e901c6ede99b.png",
     "static/media/loader3.gif": "/static/media/loader3.0a0e9bdc7d55e432d673.gif",
@@ -17,20 +17,21 @@
     "static/media/Freshe1.png": "/static/media/Freshe1.3c2a554fd7dafd3e6f99.png",
     "static/media/creativeResume.jpeg": "/static/media/creativeResume.553986f5ed766eacb3ed.jpeg",
     "static/media/pickATemplate.png": "/static/media/pickATemplate.c6098694c94f37743c5e.png",
+    "static/media/wave-haikei6.svg": "/static/media/wave-haikei6.2148ffdd2f2e43b7e8cc.svg",
     "static/media/wave-used3.svg": "/static/media/wave-used3.c0ebec7b5bcf50ee824f.svg",
     "index.html": "/index.html",
+    "static/media/wave-haikei4.svg": "/static/media/wave-haikei4.83a530d6f84eafd99793.svg",
     "static/media/wave-used2.svg": "/static/media/wave-used2.c32616d8bd87e8df291e.svg",
     "static/media/apple-brands.svg": "/static/media/apple-brands.d73b0bde429548f51102476b52290468.svg",
-    "static/media/wave-used1.svg": "/static/media/wave-used1.e432c20c5b7eb07a14a0.svg",
     "static/media/Tesla.svg": "/static/media/Tesla.95e201f9257540e890880a62cac8ba65.svg",
     "static/media/atlassian-brands.svg": "/static/media/atlassian-brands.0d35967c557f82350b10a44aac2b6170.svg",
     "static/media/google-brands.svg": "/static/media/google-brands.2260422c12a973815ae97bfdb0843637.svg",
     "static/media/microsoft-brands.svg": "/static/media/microsoft-brands.6a17a08b82a25cbe73d33d6cd10ac91a.svg",
-    "main.574555fc.css.map": "/static/css/main.574555fc.css.map",
-    "main.55f32360.js.map": "/static/js/main.55f32360.js.map"
+    "main.dbe16d99.css.map": "/static/css/main.dbe16d99.css.map",
+    "main.a6a3adc1.js.map": "/static/js/main.a6a3adc1.js.map"
   },
   "entrypoints": [
-    "static/css/main.574555fc.css",
-    "static/js/main.55f32360.js"
+    "static/css/main.dbe16d99.css",
+    "static/js/main.a6a3adc1.js"
   ]
 }

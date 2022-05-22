@@ -105,7 +105,7 @@ const ResCreator = (props) => {
 
     //
 
-    //post request to write file
+    // post request to write file
     const da = await axios.post("/post", {
       name: JSON.stringify(ls),
     });

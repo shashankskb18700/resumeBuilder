@@ -23,7 +23,7 @@ const Template = () => {
         <div className="temImg">
           <img src={exp} />
 
-          <div>Experiance</div>
+          <div>Experience</div>
         </div>
       </div>
 
